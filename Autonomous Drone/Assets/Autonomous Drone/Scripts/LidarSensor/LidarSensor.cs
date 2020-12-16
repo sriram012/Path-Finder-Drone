@@ -198,7 +198,7 @@ public class LidarSensor : MonoBehaviour
                 {
                     RaycastHit hit = laser.ShootRay();
                     float distance = hit.distance;
-                    if (distance != 0) // Didn't hit anything, don't add to list.
+                    if (distance != 0 && distance > 3) // Didn't hit anything, don't add to list or it hit the drone itself.
                     {
                         float verticalAngle = laser.GetVerticalAngle();
                         hits.AddLast(new SphericalCoordinate(distance, verticalAngle, horizontalAngle, hit.point, laser.GetLaserId()));
@@ -210,7 +210,7 @@ public class LidarSensor : MonoBehaviour
             // Notify listeners that the lidar sensor have scanned points. 
             //if (OnScanned != null  && pointCloudObject != null && pointCloudObject.activeInHierarchy)
             //{
-            OnScanned(lastLapTime, hits);
+            OnScanned?.Invoke(lastLapTime, hits);
             //}
 
         }

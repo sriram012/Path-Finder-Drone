@@ -952,11 +952,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272209395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.31, y: 6.44, z: 5.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1233520020}
+  m_Father: {fileID: 1996166378}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &272209397
@@ -2979,7 +2979,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565034275}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2989,7 +2989,7 @@ Transform:
   - {fileID: 1793652950}
   - {fileID: 1321958358}
   m_Father: {fileID: 1233520020}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &577571954
 GameObject:
@@ -3846,7 +3846,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1512707530}
-  goalTf: {fileID: 834102496}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &761583163
 TerrainCollider:
@@ -3907,7 +3906,7 @@ Transform:
   - {fileID: 834102496}
   - {fileID: 96917835}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &834102495
 GameObject:
@@ -4224,7 +4223,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1705607933}
-  goalTf: {fileID: 1711180668}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &930355330
 TerrainCollider:
@@ -4285,7 +4283,7 @@ Transform:
   - {fileID: 1711180668}
   - {fileID: 1717646662}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968234562
 GameObject:
@@ -4320,7 +4318,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 33555881}
-  goalTf: {fileID: 611254023}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &968234564
 TerrainCollider:
@@ -4381,7 +4378,7 @@ Transform:
   - {fileID: 611254023}
   - {fileID: 699740585}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984789751
 GameObject:
@@ -5456,7 +5453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1712606118}
-  goalTf: {fileID: 918303846}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1200559555
 TerrainCollider:
@@ -5517,7 +5513,7 @@ Transform:
   - {fileID: 918303846}
   - {fileID: 105239742}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201278767
 GameObject:
@@ -5552,7 +5548,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 364293222}
-  goalTf: {fileID: 1417315989}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1201278769
 TerrainCollider:
@@ -5613,7 +5608,7 @@ Transform:
   - {fileID: 1417315989}
   - {fileID: 1552954508}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1211513686
 GameObject:
@@ -5971,11 +5966,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5875141645287700853}
-  - {fileID: 272209396}
+  - {fileID: 1996166378}
   - {fileID: 565034276}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1233520021
 MonoBehaviour:
@@ -5991,7 +5985,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 1
   droneTf: {fileID: 5875141645287700853}
-  goalTf: {fileID: 272209396}
   lidarStorageGameObject: {fileID: 0}
 --- !u!1 &1288896472
 GameObject:
@@ -6907,7 +6900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1860150151}
-  goalTf: {fileID: 1972709296}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1430188480
 TerrainCollider:
@@ -6968,7 +6960,7 @@ Transform:
   - {fileID: 1972709296}
   - {fileID: 1401050476}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449307067
 GameObject:
@@ -7377,7 +7369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 2066451935}
-  goalTf: {fileID: 2065454168}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1493622039
 TerrainCollider:
@@ -7438,7 +7429,7 @@ Transform:
   - {fileID: 2065454168}
   - {fileID: 175080805}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1512707529
 PrefabInstance:
@@ -8113,7 +8104,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1031466512}
-  goalTf: {fileID: 984852027}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1664694571
 TerrainCollider:
@@ -8174,7 +8164,7 @@ Transform:
   - {fileID: 984852027}
   - {fileID: 181474465}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1688743122
 GameObject:
@@ -8949,7 +8939,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 1822348690}
-  goalTf: {fileID: 335769448}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1744285133
 TerrainCollider:
@@ -9010,7 +8999,7 @@ Transform:
   - {fileID: 335769448}
   - {fileID: 1688743123}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1747708381
 GameObject:
@@ -9715,7 +9704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 527166682}
-  goalTf: {fileID: 1881275959}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &1862160335
 TerrainCollider:
@@ -9776,7 +9764,7 @@ Transform:
   - {fileID: 1881275959}
   - {fileID: 700423158}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1878643248
 GameObject:
@@ -10154,6 +10142,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981043377}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1996166377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996166378}
+  m_Layer: 0
+  m_Name: Drone&Goal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996166378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996166377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5875141645287700853}
+  - {fileID: 272209396}
+  m_Father: {fileID: 1233520020}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2018237258
 GameObject:
   m_ObjectHideFlags: 0
@@ -10281,7 +10301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveToFile: 0
   droneTf: {fileID: 501637833}
-  goalTf: {fileID: 1719768317}
   lidarStorageGameObject: {fileID: 0}
 --- !u!154 &2044648074
 TerrainCollider:
@@ -10342,7 +10361,7 @@ Transform:
   - {fileID: 1719768317}
   - {fileID: 1651015809}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065454167
 GameObject:
@@ -10820,28 +10839,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140365182}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2146161261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146161263}
+  - component: {fileID: 2146161262}
+  m_Layer: 0
+  m_Name: LidarStorage
+  m_TagString: Lidar
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2146161262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146161261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac01ca72dc1d5d488a3aa9dc73ba90c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2146161263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146161261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5875141645287700851
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1233520020}
+    m_TransformParent: {fileID: 1996166378}
     m_Modifications:
     - target: {fileID: 130035142, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -30.6
       objectReference: {fileID: 0}
     - target: {fileID: 130035142, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -5.8388996
       objectReference: {fileID: 0}
     - target: {fileID: 130035142, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.06433936
+      value: -45.09355
       objectReference: {fileID: 0}
     - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.y
@@ -10849,27 +10907,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 2.6797353e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.6797356e-10
       objectReference: {fileID: 0}
     - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.z
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06433937
+      objectReference: {fileID: 0}
+    - target: {fileID: 308978302, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 614984173, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.017355211
+      value: -0.017355219
       objectReference: {fileID: 0}
     - target: {fileID: 614984173, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0052828793
+      value: 0.005282883
       objectReference: {fileID: 0}
     - target: {fileID: 614984173, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10884,12 +10942,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 721336679, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000011175871
+      propertyPath: m_LocalRotation.y
+      value: 2.9048364e-10
       objectReference: {fileID: 0}
     - target: {fileID: 721336679, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.0000000021531288
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000037252903
       objectReference: {fileID: 0}
     - target: {fileID: 721336679, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10905,15 +10963,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.01708525
+      value: 0.017085254
       objectReference: {fileID: 0}
     - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.006241153
+      value: -0.006241137
       objectReference: {fileID: 0}
     - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.939137
+      value: 0.93913704
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10923,21 +10985,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1411802595, guid: ac5a3c93f033b3549b538bc5705c0fc8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3659267762429014746, guid: ac5a3c93f033b3549b538bc5705c0fc8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5368458904620474974, guid: ac5a3c93f033b3549b538bc5705c0fc8,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 5022602860645237092, guid: 1bb313c5ebd77744899150cf75acf3d0,
-        type: 3}
     - target: {fileID: 6888503172127224688, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}
       propertyPath: target
@@ -10948,6 +10995,11 @@ PrefabInstance:
       propertyPath: terrainEnv
       value: 
       objectReference: {fileID: 1233520019}
+    - target: {fileID: 6888503172127224688, guid: ac5a3c93f033b3549b538bc5705c0fc8,
+        type: 3}
+      propertyPath: debugMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878895274398204241, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10966,17 +11018,17 @@ PrefabInstance:
     - target: {fileID: 7878895274398204241, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7878895274398204241, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7878895274398204241, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7878895274398204241, guid: ac5a3c93f033b3549b538bc5705c0fc8,
         type: 3}

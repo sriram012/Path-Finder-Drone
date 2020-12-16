@@ -190,7 +190,7 @@ public class AutonomousDroneAgent : Agent
     {
         // move the goal to random safe place
         bool inFrontOfDrone = infrontProbability < UnityEngine.Random.Range(0f, 1f);
-        environment.MoveGoalToSafePlace(inFrontOfDrone);
+        environment.MoveGoalToSafePlace(inFrontOfDrone, target, transform);
 
         // make foundgoal bool to not found
         foundGoal = false;
@@ -209,7 +209,7 @@ public class AutonomousDroneAgent : Agent
         this.droneRb.rotation = Quaternion.identity;
         this.droneRb.velocity = Vector3.zero;
         this.droneRb.angularVelocity = Vector3.zero;
-        environment.MoveDroneToSafePlace();
+        environment.MoveDroneToSafePlace(transform);
     }
 
     /// <summary>
@@ -226,7 +226,7 @@ public class AutonomousDroneAgent : Agent
     /// </summary>
     void ResetPropellers()
     {
-        bool leftDiagonal = 1 == m_ResetParams.GetWithDefault("left_diagonal", 1);
+        bool leftDiagonal = 1 == m_ResetParams.GetWithDefault("left_diagonal_clockwise", 1);
         this.droneMovement.frontLeftProp.clockWise = leftDiagonal;
         this.droneMovement.backRightProp.clockWise = leftDiagonal;
         this.droneMovement.frontRightProp.clockWise = !leftDiagonal;
@@ -302,7 +302,7 @@ public class AutonomousDroneAgent : Agent
 
         // moves the goal to a new safe place
         bool moveInFrontOfDrone = 0.6f < UnityEngine.Random.Range(0f, 1f);
-        environment.MoveGoalToSafePlace(moveInFrontOfDrone);
+        environment.MoveGoalToSafePlace(moveInFrontOfDrone, target, transform);
         foundGoal = false;
     }
 
